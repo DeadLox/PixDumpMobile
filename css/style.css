@@ -168,6 +168,23 @@ ul.page a.button {
 	outline: none;
 }
 
+/* --- Vote --- */
+.form .alert {
+	font-size: 22px;
+}
+.votesStat {
+	list-style-type: none;
+	margin:0 auto 50px auto;
+	text-align: left;
+}
+.votesStat .progress {
+	background-color: #3D3D3F;
+    background-image: linear-gradient(to bottom, #3D3D3F, #4C4C4F);
+}
+.votesStat .bar {
+	font-size: 22px;
+}
+
 /* --- Footer --- */
 .footer {
 	height:130px;

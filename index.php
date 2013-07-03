@@ -28,7 +28,8 @@ if (isset($page)) {
 	$page = 1;
 	$nbPage = ceil($lastPixDump / $nbAffiche);
 } 
-$startPixDump = $lastPixDump+1 - ($page*$nbAffiche-10);
+// Calcul le numéro du premier pixDump à afficher
+$startPixDump = $lastPixDump - ($page*$nbAffiche-10);
 ?>
 <!doctype html>
 <html lang="fr">
